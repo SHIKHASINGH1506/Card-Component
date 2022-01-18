@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Component</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    
+    <div class="flex">
+        <div class="card">
+            <div>
+                <img src="images/illustration-hero.svg" alt="">
+            </div>
+            <div class="card__body"> //flex column 
+                <div class="card-title">
+                    <h2>Our Changing Planet</h2>
+                    <h3>by Kurt Wagner</h3>
+                </div>
+                <div class="card-text">
+                    Visit ten places on our planet that are udergoing the biggest changes today.
+                </div>
+                <div class="card-action">//flex row space-between
+                    <a href="#" class="btn btn__read">READ</a>
+                    <a href="#" class="btn btn__bookmark">BOOKMARK</a>
+                    <span class="material-icons">favorite_border</span>
+                    <span class="material-icons">share</span>
+                    <span class="material-icons">more_vert</span>                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
