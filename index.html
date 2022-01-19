@@ -7,22 +7,25 @@
     <title>Card Component</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="flex">
-        <div class="card">
+    <div class="flex justify-center align-center h-100">
+        <div class="card flex-col">
             <div>
                 <img src="images/illustration-hero.svg" alt="">
             </div>
-            <div class="card__body"> //flex column 
-                <div class="card-title">
-                    <h2>Our Changing Planet</h2>
-                    <h3>by Kurt Wagner</h3>
-                </div>
-                <div class="card-text">
+            <div class="card__body flex flex-col">
+                <!-- <div class="card-title"> -->
+                    <h2 class="card__title">Our Changing Planet</h2>
+                    <h5 class="card__subtitle text-dark">by Kurt Wagner</h5>
+                <!-- </div> -->
+                <div class="card__content text-light">
                     Visit ten places on our planet that are udergoing the biggest changes today.
                 </div>
-                <div class="card-action">//flex row space-between
+                <div class="card__action flex justify-between">
                     <a href="#" class="btn btn__read">READ</a>
                     <a href="#" class="btn btn__bookmark">BOOKMARK</a>
                     <span class="material-icons">favorite_border</span>
