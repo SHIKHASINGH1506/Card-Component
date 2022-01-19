@@ -5,6 +5,8 @@
 :root{
     --dark-gray: #6c757d;
     --light-gray: #909396;
+    --destaurted-blue:  rgb(92, 116, 187);
+    --bright-blue: hsl(245, 75%, 52%);
 }
 body{
     background-color: lightgray;
@@ -73,3 +75,13 @@ img{
 .card__action{
     padding: 0.5rem 0rem;
 }
+.btn__primary{
+    color: var(--bright-blue);
+}
+.btn__secondary{
+    color: var(--light-gray);
+}
+a:hover{
+    color: var(--destaurted-blue);
+}
+
