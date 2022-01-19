@@ -85,3 +85,10 @@ a:hover{
     color: var(--destaurted-blue);
 }
 
+/* Media Query */
+@media all and (max-width: 600px){
+   .card{
+       flex-basis: 270px;
+   } 
+}
+
