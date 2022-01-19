@@ -49,13 +49,13 @@ a{
 .card{
     flex-basis: 340px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 img{
     /* max-width: 370px;
     max-height: 150px; */
     width: 100%;
-    border-radius: 10px 10px 0px 0px;;
+    border-radius: 5px 5px 0px 0px;;
 }
 .card__body{
     padding: 1rem;
@@ -69,10 +69,7 @@ img{
     line-height: 24px;
 }
 .card__content{
-    margin: 1em 0em;
-    padding: 0.5em 0em;
-}
-.card__action{
+    margin: 0.6em 0em;
     padding: 0.5em 0em;
 }
 .btn__primary{
