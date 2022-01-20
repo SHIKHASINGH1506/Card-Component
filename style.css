@@ -5,8 +5,8 @@
 :root{
     --dark-gray: #6c757d;
     --light-gray: #909396;
-    --destaurted-blue:  rgb(92, 116, 187);
-    --bright-blue: hsl(245, 75%, 52%);
+    --light-brown:  #ffa167d7;
+    --dark-golden-brown:  #eca03bf8;
 }
 body{
     background-color: lightgray;
@@ -72,13 +72,13 @@ img{
     font-size: 0.88em;
 }
 .btn__primary{
-    color: var(--bright-blue);
+    color: var(--dark-golden-brown);
 }
 .btn__secondary{
     color: var(--light-gray);
 }
 a:hover{
-    color: var(--destaurted-blue);
+    color: var(--light-brown);
 }
 
 /* Media Query */
