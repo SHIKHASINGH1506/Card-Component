@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --secondary-light-gray: rgb(213, 206, 206);
+  }
+  
+  body {
+    background-color: lightgray;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  /* chips  */
+  .wrapper{
+    display: flex;  
+    margin: 2rem 1rem;
+  }
+  .chip__container {
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 100%;
+  
+    border: 1px solid darkgray;
+    border-radius: 0.35rem;
+    background-color: white;
+  }
+  .chip__title {
+    display: flex;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+    padding: 0.5rem;
+  }
+  .chip__title p:last-child {
+    margin-left: auto;
+  }
+  .chip__body {
+    padding: 1.7rem;
+  }
+  .chip-field-wrapper {
+    padding-bottom: 1rem;
+    background-color: rgba(235, 224, 224, 0.816);
+    border-bottom: 1px solid rgb(167, 162, 162);
+  }
+  .chip-field {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1rem;
+    min-height: 50px;
+    padding: 1rem 1rem 0 1rem;
+    align-items: center;
+    margin: -4px;
+  }
+  .chip-item-wrapper{
+    display: inline-flex;
+    align-items: center;
+
+    background-color: var(--secondary-light-gray);
+    padding: 0.4rem 0.7rem;
+    border-radius: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .btn-icon{
+    border: none;
+    background-color: var(--secondary-light-gray);
+    margin-left: 0.5rem;
+    color: darkgray;
+    cursor: pointer;
+  }
+  .chip-item-wrapper .btn-icon{
+    font-size: 20px;
+    width: 18px;
+    height: 18px;   
+  }
