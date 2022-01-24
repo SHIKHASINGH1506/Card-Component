@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --primary-blue: #2046f0;
+    --secondary-pink: #f72585;
+    --chocolate-brown: #d8572a;
+    --secondary-light-gray: rgb(213, 206, 206);
+  }
+  
+  body {
+    background-color: lightgray;
+    font-family: "Noto Sans", sans-serif;
+    height: 100vh;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      height: 100%;   
+      width: 100%;
+      padding: 1rem;
+      background-color: white;
+  }
+  h3{
+      margin: 1rem 0rem;
+      padding: 1rem;
+  }
+
+  .text{
+      position: relative;
+  }
+  .badge{
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--primary-blue);
+    color: white;
+    font-weight: 600;
+  }
+  .badge-above-after{
+    bottom: 0.5rem;
+  }
+  .badge-overlay{
+    right: -1rem;
+    bottom: 0.5rem;
+  }
+  .badge-small{ 
+      padding: 0.1rem 0.3rem;
+      height: 1.35rem;
+      width: 1.35rem;
+  }
+  .badge-md{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0rem 0.15rem
+  }
+  .badge-large{ 
+    padding: 0.3rem 0.6rem;
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  .btn{
+      position: relative;
+      padding: 0.7rem 1rem;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      border-radius: 0.3rem;
+  }
+  .btn-primary{
+    background-color: var(--primary-blue); 
+    color: white;
+  }
+  .btn-secondary{
+      background-color: white;
+      box-shadow: 0px 0px 3px 0px grey;
+  }
+  .badge-above-before{
+      background-color: var(--secondary-pink);
+      bottom: 1.75rem;
+      left: -0.7rem;
+      padding: 0.1rem 0.3rem;
+      height: 1.35rem;
+      width: 1.35rem;
+  }
+  .badge-btn-above-after{
+    background-color: var(--primary-blue);
+    bottom: 1.75rem;
+    right: -0.7rem;
+    padding: 0.1rem 0.3rem;
+    height: 1.35rem;
+    width: 1.35rem;
+  }
+  .icon{
+      position: relative;
+      font-size: 24px;
+      color: black;
+  }
+  .badge-icon-above-after{
+    top:-0.7rem;
+    right:-0.6rem;
+    background-color: var(--secondary-pink);
+  }
