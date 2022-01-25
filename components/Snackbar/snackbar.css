@@ -6,15 +6,38 @@
   :root{
     --dark-slate-grey: #333;
     --dark-grey: #747472;
-    --primary-light-purple: #bb86fc;
+    --primary-light-pink: #bb86fc;
     --secondary-light-gray: rgb(241, 237, 237);
+    --primary-light-purple: #6319C4;
   }
   
   body {
     font-family: Roboto,sans-serif;
     height: 100vh;
   }
-  /* Body */
+
+  /* .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+    background-color:  var(--secondary-light-gray);
+    border: 1px solid var(--primary-light-pink);
+    padding: 1rem;
+  }
+  .btn__primary{
+      background-color: var(--primary-light-purple);
+      border-radius: 0.3rem;
+      color: white;
+      letter-spacing: 1px;
+  } */
+/* snackbar */
   .container{
     display: flex;
     justify-content: center;
@@ -47,13 +70,15 @@
 .btn{
     display: flex;
     align-items: center;
+    cursor: pointer;
     border: none;
     background: none;
+    padding: 14px 16px;
 }
 .btn__action{
     background: none;
     font-size: 15px;
-    color: var(--primary-light-purple);
+    color: var(--primary-light-pink);
     padding: 14px 16px;
     letter-spacing: 1px;   
 }
