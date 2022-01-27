@@ -33,6 +33,9 @@
     background-color: var(--secondary-light-gray);
     border: 1px solid var(--dark-grey);
   }
+  .scrollable{
+    overflow-x: scroll;
+  }
   .tab, .tab__icon{
     flex-grow: 1;
     display: flex;
@@ -48,7 +51,7 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-.tab__icon-lead{
+.tab__icon-lead, .tab__scroll{
   flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -73,7 +76,7 @@
   height: 24px;
   margin-right: 0.5rem;
 }
-.tab-active, .tab__icon-lead-active, .tab__icon-active{
+.tab-active, .tab__icon-lead-active, .tab__icon-active, .tab__scroll-active{
     background-color: var(--light-gray2);
     color: var(--primary-light-purple);
     border-bottom: 1px solid var(--primary-light-purple);
