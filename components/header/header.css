@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
   :root{
+    --primary-light-purple: #6319C4;
     --secondary-light-gray: rgb(213, 206, 206);
   }
   
@@ -15,18 +16,17 @@
     position: relative;
     width: 100%;
     height: 200vh;
-    border: 2px solid blue;
     /* overflow-y: scroll; */
   }
-  /* header */
 
+  /* header */
   .navbar{
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
     padding: 0.75rem 0;
-    background-color: #89b0ae;
+    background-color: var(--primary-light-purple);
     position: fixed;
     top: 0;
     left: 0;

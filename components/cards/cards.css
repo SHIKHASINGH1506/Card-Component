@@ -6,6 +6,7 @@
 :root{
     --dark-gray: #6c757d;
     --light-gray: #909396;
+    --primary-light-purple: #6319C4;
     --light-brown:  #ffa167d7;
     --dark-golden-brown:  #eca03bf8;
 }
@@ -59,6 +60,7 @@ img{
     position: absolute;
     z-index: 1;
     bottom: 0;
+    color: white;
 }
 .top-header{
     order: -1;
@@ -120,7 +122,7 @@ img{
     width: calc(100% - 8.125rem);
 }
 .btn__primary{
-    color: var(--dark-golden-brown);
+    color: var(--primary-light-purple);
 }
 .btn__secondary{
     color: var(--light-gray);
