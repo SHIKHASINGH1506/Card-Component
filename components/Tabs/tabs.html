@@ -6,13 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabs</title>
     <link rel="stylesheet" href="tabs.css">
+    <link rel="stylesheet" href="drawer.css">
+    <link rel="stylesheet" href="badge.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
+        <!-- Basic Tabs -->
         <div class="tab-container">
             <button class="tab tab">Tab One</button>
             <button class="tab tab-active">Tab Two</button>
             <button class="tab">Tab Three</button>
+        </div>
+
+        <!-- Tabs with top icon -->
+        <div class="tab-container">
+            <button class="tab__icon">
+                <span class="icon material-icons">explore</span>
+                Tab One
+            </button>
+            <button class="tab__icon tab__icon-active">
+                <span class="icon material-icons">flights</span>
+                Tab Two
+            </button>
+            <button class="tab__icon">
+                <span class="icon material-icons">favorite</span>
+                Tab Three
+            </button>
+        </div>
+
+        <!-- Tabs with leading icon -->
+        <div class="tab-container">
+            <button class="tab__icon-lead">
+                <span class="icon material-icons">explore</span>
+                Tab One
+            </button>
+            <button class="tab__icon-lead tab__icon-lead-active">
+                <span class="icon material-icons">flights</span>
+                Tab Two
+            </button>
+            <button class="tab__icon-lead">
+                <span class="icon material-icons">favorite</span>
+                Tab Three
+            </button>
         </div>
     </div>
 
