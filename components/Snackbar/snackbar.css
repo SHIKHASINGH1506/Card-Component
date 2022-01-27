@@ -16,27 +16,6 @@
     height: 100vh;
   }
 
-  /* .btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  .btn-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 15rem;
-    background-color:  var(--secondary-light-gray);
-    border: 1px solid var(--primary-light-pink);
-    padding: 1rem;
-  }
-  .btn__primary{
-      background-color: var(--primary-light-purple);
-      border-radius: 0.3rem;
-      color: white;
-      letter-spacing: 1px;
-  } */
 /* snackbar */
   .container{
     display: flex;
@@ -53,7 +32,7 @@
 
     position:fixed;
     bottom: 5px;
-    min-width: 27rem;
+    max-width: 27rem;
     border-radius: 0.3rem;
     background-color: var(--dark-slate-grey);
     color: white;
