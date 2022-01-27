@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogs</title>
+    <link rel="stylesheet" href="dialogs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@200;300&family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+      <div class="alert">
+          <header class="title">
+              <h3>Use location service?</h3>
+          </header>
+          <main class="body">
+              Let us help apps determine your location. This means sending annonymus location data to us even when no apps are running.
+          </main>
+          <footer class="action">
+              <button class="btn">Disagree</button>
+              <button class="btn">Agree</button>
+          </footer>
+      </div>
+
+      <!-- Simple Dialog  -->
+    <div class="alert">
+        <header class="title">
+            <h3>Dialog Header</h3>
+        </header>
+        <main class="dialog-container">
+          <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 1</p>
+          </div>
+          <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 2</p>
+         </div>
+        <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 3</p>  
+        </div>
+        </main>
+    </div>
+
+    <!-- Confirmation dialog -->
+    <div class="alert">
+        <header class="title title-br">
+            <h3>Dialog Header</h3>
+        </header>
+        <main class="dialog-container scollable">
+          <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 1</p>
+          </div>
+          <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 2</p>
+         </div>
+        <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 3</p>  
+        </div>
+        <div class="dialog-item">
+            <span class="icon material-icons">
+                account_circle
+            </span>
+            <p>Item 4</p>  
+        </div>
+        </main>
+        <footer class="action action-br">
+            <button class="btn">Cancel</button>
+            <button class="btn disabled">ok</button>
+        </footer>
+    </div>
+</div>
+</body>
+
+</html>
